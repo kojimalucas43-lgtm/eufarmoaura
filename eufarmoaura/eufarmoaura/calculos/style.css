@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    background: linear-gradient(#4193ac #ff0000);
+    color: rgb(201, 10, 185);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+    border: 2px solid #db07e2;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vh;
+    flex-wrap: wrap;
+
+}
+label{
+    margin-bottom: -12px;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 999px;
+    border: none;
+    border: 2px solid #090909;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 999px;
+    border: none;
+    border: 2px solid #090909;
+    transition: all 300ms ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid #db01beb2;
+    color: #d400d4;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px #ff00bf8a;
+}
