@@ -17,8 +17,16 @@ function mult(){
     respMult.textContent = n5 * n6
 }
 function divs(){
-    var n7 = document.getElementById("n7").valueAsNumber;
-    var n8 = document.getElementById("n8").valueAsNumber;
+    var n7 = parseFloat(document.getElementById("n7").value)
+    var n8 = parseFloat(document.getElementById("n8").value)
     var respDIvs = document.getElementById("respDivs")
-    respDIvs.textContent = n7 / n8
+    
+    if(n4 !== 0){
+        respDIvs.textContent = n7 / n8
+    }
+        
+    else{
+        respDIvs.textContent = "Não se Divide por 0"
+    }
+    
 }
